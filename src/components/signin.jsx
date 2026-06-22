@@ -18,7 +18,7 @@ export default function SignIn() {
      setNewchat,
      setCurrThreadId,
        } = useAuth();
-    const naviagte = useNavigate();
+    const navigate = useNavigate();
 
     const handleSignIn = async (e)=>{
         e.preventDefault();
